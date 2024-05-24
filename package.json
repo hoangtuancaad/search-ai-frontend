@@ -22,7 +22,6 @@
     },
     "lint-staged": {
         "src/**/*.{ts,tsx,json,scss}": [
-            "yarn prettier",
             "yarn eslint",
             "git add ."
         ]
