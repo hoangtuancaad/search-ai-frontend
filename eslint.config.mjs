@@ -25,7 +25,7 @@ export default [
             quotes: ["error", "double"],
         },
 
-        ignores: ["**/node_modules/**", "**/dist/**", "**/public/**", "**src/**/*.scss"],
+        ignores: ["**/node_modules/**", "**/dist/**", "**/public/**", "**/**/*.scss"],
     },
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
