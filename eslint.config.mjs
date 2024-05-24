@@ -18,11 +18,10 @@ export default [
         },
 
         rules: {
-            "no-unused-vars": "error",
-            "no-undef": "error",
-
             semi: ["error", "always"],
             quotes: ["error", "double"],
+            "no-unused-vars": "error",
+            "no-undef": "error",
         },
 
         ignores: ["**/node_modules/**", "**/dist/**", "**/public/**", "**src/**/*.scss"],
